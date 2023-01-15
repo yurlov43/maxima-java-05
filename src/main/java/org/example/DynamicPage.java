@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class DynamicPage {
     public void createPage(String filename) throws IOException, IncorrectCatWeightException, TemplateException {
         FileWriter fileWriter = new FileWriter(filename);
@@ -33,6 +32,4 @@ public class DynamicPage {
         fileWriter.flush();
         fileWriter.close();
     }
-
-
 }
